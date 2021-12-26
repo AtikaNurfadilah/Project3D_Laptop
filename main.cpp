@@ -46,3 +46,34 @@
      GLfloat lightPos1[] = {-1.0f, 0.5f, 0.5f, 0.0f};
      glLightfv(GL_LIGHT1, GL_DIFFUSE, lightColor1);
      glLightfv(GL_LIGHT1, GL_POSITION, lightPos1);
+
+     glRotatef(10, 1.0f, 0.0f, 0.0f);
+     glRotatef(-10, 0.0f, 0.0f, 1.0f);
+     glRotatef(_angle,0.0f, 1.0f, 0.0f);
+     //glRotatef(10, 1.0f, 0.0f, 0.0f);
+     //glRotatef(-10, 0.0f, 0.0f, 1.0f);
+     //glRotatef(_angle,0.0f, 1.0f, 0.0f);
+      glColor3f(1.1f, 1.1f, 1.1f);
+
+     glBegin(GL_QUADS);
+
+     //Front sisi depan
+     glNormal3f(0.0f, 0.0f, 1.0f);
+     glVertex3f(-2.0f, -0.1f, 2.0f);
+     glVertex3f(2.0f, -0.1f, 2.0f);
+     glVertex3f(2.0f, 0.2f, 2.0f);
+     glVertex3f(-2.0f, 0.2f, 2.0f);
+
+     //Right sisi kanan
+     glNormal3f(1.0f, 0.0f, 0.0f);
+     glVertex3f(2.0f, -0.1f, -2.0f);
+     glVertex3f(2.0f, 0.2f, -2.0f);
+     glVertex3f(2.0f, 0.2f, 2.0f);
+     glVertex3f(2.0f, -0.1f, 2.0f);
+
+     //Back sisi belakang
+     glNormal3f(0.0f, 0.0f, -1.0f);
+     glVertex3f(-2.0f, -0.1f, -2.0f);
+     glVertex3f(-2.0f, 0.2f, -2.0f);
+     glVertex3f(2.0f, 0.2f, -2.0f);
+     glVertex3f(2.0f, -0.1f, -2.0f);
