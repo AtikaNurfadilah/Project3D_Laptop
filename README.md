@@ -7,3 +7,4 @@
 5. E1E120047 Rizka Amelia Alwi
 6. E1E120071 Hasna Anggin Tri Muslimin
 7. E1E120095 Tasya Berlianiswah Bunduwula Yusuf
+8. kelompok 3
