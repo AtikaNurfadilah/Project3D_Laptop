@@ -6,4 +6,4 @@
 4. E1E120029 Gabril Isnansyah
 5. E1E120047 Rizka Amelia Alwi
 6. E1E120071 Hasna Anggin Tri Muslimin
-7. E1E120095 Tasya Berlianiswah Bunduwula
+7. E1E120095 Tasya Berlianiswah Bunduwula Yusuf
