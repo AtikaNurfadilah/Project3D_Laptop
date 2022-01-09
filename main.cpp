@@ -1,4 +1,4 @@
-#include <windows.h>
+#include <windows.h> //hay
 #include <GL/glut.h> //bismillah
 
     //Initializes 3D rendering (memberikan inisialisai 3D)
